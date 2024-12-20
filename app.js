@@ -45,7 +45,7 @@ function verifyToken(req,res,next){
     }
   });
 }else {
-return res.status(401).json({ message: "token must be provided"})
+return res.status(401).json({ message: "token must be provided"});
 }
 }
 
